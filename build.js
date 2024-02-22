@@ -1,6 +1,7 @@
 const StyleDictionaryPackage = require('style-dictionary');
-const fse = require('fs-extra');
+const fs = require('fs-extra');
 const buildPath = 'build/';
+
 
 function getStyleDictionaryConfig(brand, platform) {
   return {
@@ -48,7 +49,7 @@ function getStyleDictionaryConfig(brand, platform) {
 console.log('\n==============================================');
 console.log(`cleaning ${buildPath}...`);
 
-fse.removeSync(buildPath);
+fs.removeSync(buildPath);
 
 console.log('\n==============================================');
 
