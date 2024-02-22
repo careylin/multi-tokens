@@ -1,0 +1,9 @@
+{
+  "name": "multi-tokens",
+  "version": "1.0.0",
+  "description": "test repo for multibrand tokens",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build.js"
+  }
+}
